@@ -138,46 +138,48 @@ function Main() {
                 </div>
             </section> */}
             <section className="container">
-                {/* Texte */}
-                <div className="left">
-                    <h1>
-                        UN SERVICE <br /> AU-DELÀ<br />DES ATTENTES
-                    </h1>
-                    <p>
-                        Notre salon de coiffure est un espace conçu exclusivement pour les hommes
-                        qui apprécient la qualité premium, le respect du temps et un look impeccable.
-                        Nous vous aiderons à avoir du style et à vous sentir confiant, en toute discrétion.
-                    </p>
-                    <button className="btn">Envoyer une demande →</button>
-                </div>
-
-                {/* Carte */}
-                <div className="map-card">
-                    <img src="https://i.imgur.com/MkmFeEG.png" alt="Carte" />
-                </div>
-
-                {/* Infos */}
-                <div className="info">
-                    <div className="info-block">
-                        <div className="icon-box">📍</div>
-                        <div className="info-text">
-                            <h3>LOCALISATION</h3>
-                            <p>
-                                Au golf à 300 mètres de MAXI-SOLIDE
-                            </p>
-                        </div>
+                <div>
+                    {/* Texte */}
+                    <div className="left">
+                        <h1>
+                            UN SERVICE <br /> AU-DELÀ<br />DES ATTENTES
+                        </h1>
+                        <p>
+                            Notre salon de coiffure est un espace conçu exclusivement pour les hommes
+                            qui apprécient la qualité premium, le respect du temps et un look impeccable.
+                            Nous vous aiderons à avoir du style et à vous sentir confiant, en toute discrétion.
+                        </p>
+                        <button className="btn">Envoyer une demande →</button>
                     </div>
 
-                    <hr style={{ borderColor: "#6a5f5a", width: "100%" }} />
+                    {/* Carte */}
+                    <div className="map-card">
+                        <img src="https://i.imgur.com/MkmFeEG.png" alt="Carte" />
+                    </div>
 
-                    <div className="info-block">
-                        <div className="icon-box">☎️</div>
-                        <div className="info-text">
-                            <h3>+1 234 5678</h3>
-                            <p>
-                                Mardi – Dimanche : 13h – 23h /
-                                Lundi : fermé
-                            </p>
+                    {/* Infos */}
+                    <div className="info">
+                        <div className="info-block">
+                            <div className="icon-box">📍</div>
+                            <div className="info-text">
+                                <h3>LOCALISATION</h3>
+                                <p>
+                                    Au golf à 300 mètres de MAXI-SOLIDE
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr style={{ borderColor: "#6a5f5a", width: "100%" }} />
+
+                        <div className="info-block">
+                            <div className="icon-box">☎️</div>
+                            <div className="info-text">
+                                <h3>+1 234 5678</h3>
+                                <p>
+                                    Mardi – Dimanche : 13h – 23h /
+                                    Lundi : fermé
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
